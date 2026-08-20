@@ -1,0 +1,5 @@
+/* Contrast and compact password-eye polish */
+body,.content,h1,h2,h3,.brand,.task h3,.library h3,.side h2{color:#16253d}
+header p:not(.eyebrow),.lede,.task p,.library p,.upload p,.muted,small,.profile small{color:#526078}
+.login .lede{color:#e7edf7}.login .note{color:#fffdf8}.login form>p{color:#526078}.login label{color:#263f68}
+.password-toggle{font-size:0!important;width:30px!important;height:30px!important;right:8px!important;background:transparent!important;border:0!important;box-shadow:none!important}.password-toggle:before{content:'👁';font-size:15px;line-height:1;filter:grayscale(1);opacity:.8}.password-toggle:hover:before{opacity:1}.password-toggle:hover{background:#e9edf5!important}.login .password-field input{padding-right:44px}

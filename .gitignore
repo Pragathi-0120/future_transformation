@@ -1,0 +1,12 @@
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/chroma_store/*
+!backend/chroma_store/.gitkeep
+frontend/node_modules/
+frontend/dist/
+# Python cache
+**/_pychache_/
+*.pyc
