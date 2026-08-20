@@ -1,2 +1,49 @@
-.login section:before{content:'M  MOSAIC';position:absolute;top:30px;left:36px;color:#fffdf8;font:600 21px/1 Fraunces;letter-spacing:-.7px;background:#263f68;border-left:4px solid #d7a64b;padding:10px 15px;z-index:2;opacity:1}.login section h1{color:#fffdf8;text-shadow:0 2px 0 rgba(0,0,0,.16)}.login section .lede{color:#eef3fa;font-size:16px;max-width:390px}.login section .note{background:rgba(255,255,255,.09);border-left:3px solid #d7a64b;color:#fffdf8;padding:14px 16px;max-width:385px}.login section .eyebrow{color:#f0cf87;font-weight:700}
-@media(max-width:800px){.login section:before{left:28px;top:24px}.login section{padding-top:110px!important}}
+.login section:before {
+    content: 'M  MOSAIC';
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    color: #fffdf8;
+    font: 600 21px/1 Fraunces;
+    letter-spacing: -.7px;
+    background: #263f68;
+    border-left: 4px solid #d7a64b;
+    padding: 10px 15px;
+    z-index: 2;
+    opacity: 1
+}
+
+.login section h1 {
+    color: #fffdf8;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .16)
+}
+
+.login section .lede {
+    color: #eef3fa;
+    font-size: 16px;
+    max-width: 390px
+}
+
+.login section .note {
+    background: rgba(255, 255, 255, .09);
+    border-left: 3px solid #d7a64b;
+    color: #fffdf8;
+    padding: 14px 16px;
+    max-width: 385px
+}
+
+.login section .eyebrow {
+    color: #f0cf87;
+    font-weight: 700
+}
+
+@media(max-width:800px) {
+    .login section:before {
+        left: 28px;
+        top: 24px
+    }
+
+    .login section {
+        padding-top: 110px !important
+    }
+}
