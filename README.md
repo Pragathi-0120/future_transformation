@@ -55,16 +55,11 @@ On the first document upload, Chroma downloads the local all-MiniLM-L6-v2
 embedding model once to `backend/chroma_store/onnx_models/`. Subsequent uploads
 and searches run against that project-local model and do not require an LLM API.
 
-## Submission screenshots
-
-After signing in as the Admin, capture the Today, Workboard, Library, Ask
-Mosaic, and Pulse views. Add the resulting images under `screenshots/` before
-submitting the repository.
 
 ## Demo accounts
 
 - Admin: `admin@mosaic.local` / `Admin@123`
-- User: `priya@mosaic.local` / `User@123`
+
 
 ## API overview
 
@@ -77,6 +72,4 @@ submitting the repository.
 - `POST /search`
 - `GET /analytics` (Admin)
 
-## Interview explanation
 
-JWT contains the authenticated user's identity and role. FastAPI dependencies validate this before each protected endpoint, and Admin-only endpoints use a second role guard. MySQL stores normalized business data while ChromaDB stores semantic vectors with chunk metadata. Every important action is persisted in `activity_logs`, allowing the Admin Pulse view to show recent product activity.
